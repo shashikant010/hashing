@@ -21,7 +21,14 @@ for (int i = 0; i < n; i++)
 cout<<"enter number you want to search ";
 int key;
 cin>>key;
-cout<<"the "<<key<<" is repeated "<<mpp[key]<<" times";
+cout<<"the "<<key<<" is repeated "<<mpp[key]<<" times"<<endl;
+
+cout<<"here is the whole map for you "<<endl;
+
+for(auto it : mpp){
+    cout<<it.first<<"-->"<<it.second<<endl;
+
+}
 
 
 
